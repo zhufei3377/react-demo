@@ -1,0 +1,64 @@
+.c-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 12px 20px;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    background-color: #01869A;
+  }
+
+  &--blue {
+    background-color: #00B4CF;
+    border-color: #00B4CF;
+    color: white;
+
+    &:hover, 
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      text-decoration: none;
+      background-color: #01869A;
+      border-color: #01869A;
+    }
+  }
+
+  &--grey {
+    background-color: #2D4054;
+    border-color: #2D4054;
+    color: white;
+
+    &:hover, 
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      text-decoration: none;
+      background-color: #435466;
+      border-color: #435466;
+    }
+  }
+
+  &--search {
+    background-color: transparent;
+    border-color: transparent;
+    color: #2D4054;
+
+    &:hover, 
+    &:focus {
+      cursor: pointer;
+      outline: none;
+      text-decoration: none;
+      background-color: #435466;
+      border-color: #435466;
+    }
+  }
+}

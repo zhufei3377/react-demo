@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'cruise';
+  src: url("fonts/cruise.ttf?srz1pg") format("truetype"), url("fonts/cruise.woff?srz1pg") format("woff"), url("fonts/cruise.svg?srz1pg#cruise") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.c-icon {
+  cursor: default; }
+  .c-icon__glyph {
+    color: currentColor;
+    display: inline-block;
+    font-family: "cruise";
+    font-size: 1.25em;
+    font-style: normal;
+    line-height: 1;
+    margin-top: -0.2em;
+    vertical-align: middle; }

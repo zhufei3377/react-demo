@@ -1,0 +1,8 @@
+.c-wrapper--footer {
+  min-height: 30px;
+  display: flex;
+  border-top: 1px solid #D7D8D6;
+  align-items: center; }
+  .c-wrapper--footer p {
+    margin-left: auto;
+    margin-right: auto; }
