@@ -1,0 +1,64 @@
+.summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .summary-container .summary-item {
+    width: 30%;
+    height: 150px; }
+    .summary-container .summary-item .summary-icon {
+      font-size: 138px;
+      margin-right: auto;
+      color: white;
+      opacity: 0.2; }
+  .summary-container .summary-building {
+    background-color: #FF9A2A;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; }
+    .summary-container .summary-building span:first-child {
+      align-self: flex-start;
+      margin-right: auto;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: 20px;
+      margin-left: 20px; }
+    .summary-container .summary-building span:last-child {
+      font-size: 48px;
+      color: white;
+      margin-bottom: 20px;
+      margin-right: 20px; }
+  .summary-container .summary-idle {
+    background-color: #7FBC39;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; }
+    .summary-container .summary-idle span:first-child {
+      align-self: flex-start;
+      margin-right: auto;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: 20px;
+      margin-left: 20px; }
+    .summary-container .summary-idle span:last-child {
+      font-size: 48px;
+      color: white;
+      margin-bottom: 20px;
+      margin-right: 20px; }
+  .summary-container .summary-subSummary {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .summary-container .summary-subSummary .all, .summary-container .summary-subSummary .physical, .summary-container .summary-subSummary .virtual {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px; }
+      .summary-container .summary-subSummary .all span:first-child, .summary-container .summary-subSummary .physical span:first-child, .summary-container .summary-subSummary .virtual span:first-child {
+        margin-bottom: auto;
+        font-size: 12px; }
+      .summary-container .summary-subSummary .all span:last-child, .summary-container .summary-subSummary .physical span:last-child, .summary-container .summary-subSummary .virtual span:last-child {
+        margin-bottom: 10px;
+        font-size: 20px; }

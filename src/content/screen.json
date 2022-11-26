@@ -1,0 +1,37 @@
+{
+  "logoAlt": "logo",
+  "avatarAlt": "avatar",
+  "copyright": "© Copyright 2017 ThoughtWorks",
+  "building": "Building",
+  "idle": "Idle",
+  "all": "ALL",
+  "physical": "PHYSICAL",
+  "virtual": "VIRTUAL",
+  "all2": "All",
+  "physical2": "Physical",
+  "virtual2": "Virtual",
+  "history": "History",
+  "historyList": [
+    "bjstdmngbdr01/Acceptance_test",
+    "bjstdmngbdr02/Acceptance_test",
+    "bjstdmngbdr03/Acceptance_test",
+    "bjstdmngbdr04/Acceptance_test",
+    "bjstdmngbdr05/Acceptance_test",
+    "bjstdmngbdr06/Acceptance_test",
+    "bjstdmngbdr07/Acceptance_test",
+    "bjstdmngbdr08/Acceptance_test"
+  ],
+  "navItem": [
+    {"name": "DASHBOARD", "iconName": "icon-dashboard"},
+    {"name": "AGENT", "iconName": "icon-sitemap"},
+    {"name": "MY CRUISE", "iconName": "icon-boat"},
+    {"name": "HELP", "iconName": "icon-life-bouy"}
+  ],
+  "agentImg": {
+    "windows": "windows",
+    "cent_os": "cent_os",
+    "debin": "debin",
+    "suse": "suse",
+    "ubuntu": "ubuntu"
+  }
+}

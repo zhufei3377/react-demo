@@ -1,0 +1,126 @@
+.agents-item {
+  background-color: white;
+  min-height: 100px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative; }
+  .agents-item .agent-icon {
+    margin-right: 20px;
+    margin-left: 20px; }
+    .agents-item .agent-icon img {
+      max-width: 80px;
+      max-height: 80px; }
+  .agents-item .agent-info {
+    margin-left: 10px;
+    margin-right: 20px;
+    min-width: 80%; }
+    .agents-item .agent-info .address {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      .agents-item .agent-info .address .c-icon {
+        font-size: 16px;
+        color: #435466; }
+      .agents-item .agent-info .address .server-name {
+        font-weight: bold;
+        color: #00B4CF; }
+      .agents-item .agent-info .address label {
+        margin-left: 5px; }
+    .agents-item .agent-info .browser {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center; }
+      .agents-item .agent-info .browser__add {
+        margin-right: 15px;
+        color: white;
+        background-color: #00B4CF;
+        font-size: 18px; }
+        .agents-item .agent-info .browser__add .c-icon-add {
+          cursor: pointer; }
+          .agents-item .agent-info .browser__add .c-icon-add .c-icon__glyph {
+            margin-top: 1px;
+            margin-right: 1px;
+            padding: 4px 6px; }
+      .agents-item .agent-info .browser__item {
+        margin-right: 10px;
+        padding: 5px;
+        background-color: #E1E4E6; }
+        .agents-item .agent-info .browser__item .c-icon-remove {
+          margin-left: 2px; }
+      .agents-item .agent-info .browser__btn {
+        margin-left: auto; }
+        .agents-item .agent-info .browser__btn .c-button--blue {
+          padding: 6px 15px; }
+          .agents-item .agent-info .browser__btn .c-button--blue .c-icon-deny {
+            margin-right: 2px;
+            font-size: 12px; }
+  .agents-item .add-resource-modal {
+    position: absolute;
+    background-color: white;
+    width: 570px;
+    height: 130px;
+    border: 1px solid #00B4CF;
+    left: 110px;
+    top: 105px;
+    z-index: 5;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); }
+    .agents-item .add-resource-modal::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: -21px;
+      left: 22px;
+      border-bottom: 20px solid #00B4CF;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent; }
+    .agents-item .add-resource-modal::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: -19px;
+      left: 22px;
+      border-bottom: 20px solid white;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent; }
+    .agents-item .add-resource-modal .text-row {
+      height: 30%;
+      padding-left: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end; }
+      .agents-item .add-resource-modal .text-row span:first-child {
+        margin-bottom: 5px; }
+      .agents-item .add-resource-modal .text-row span:last-child {
+        margin-left: auto;
+        align-self: flex-start;
+        margin-top: 10px;
+        margin-right: 7px;
+        color: #00B4CF;
+        font-size: 18px;
+        cursor: pointer; }
+    .agents-item .add-resource-modal .c-input {
+      height: 30%;
+      padding: 0 10px; }
+      .agents-item .add-resource-modal .c-input .c-input--input {
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 3px;
+        box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.3); }
+        .agents-item .add-resource-modal .c-input .c-input--input:focus {
+          outline: none; }
+    .agents-item .add-resource-modal .btn-row {
+      height: 30%;
+      padding-left: 10px;
+      margin-top: 10px; }
+      .agents-item .add-resource-modal .btn-row .c-button--blue {
+        padding: 6px 15px;
+        margin-right: 20px;
+        font-size: 12px; }
+      .agents-item .add-resource-modal .btn-row .c-button--grey {
+        padding: 6px 15px;
+        font-size: 12px; }

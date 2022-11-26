@@ -1,0 +1,24 @@
+.nav-container {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: auto;
+
+  .nav-item {
+    height: 45px;
+
+    &:hover, 
+    &:focus {
+      background-color: #00B4CF;
+    }
+
+    .nav-item-icon {
+      margin-right: 20px;
+      
+    }
+
+
+
+
+  }
+
+}

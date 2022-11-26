@@ -1,0 +1,17 @@
+.c-primary-action {
+  width: 82%;
+  display: flex;
+  flex-direction: row; }
+  .c-primary-action__nav {
+    width: 20%;
+    background-color: #2D4054;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+  .c-primary-action__content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px; }
